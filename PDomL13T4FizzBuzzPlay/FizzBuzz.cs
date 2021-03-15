@@ -42,8 +42,6 @@ namespace PDomL13T4FizzBuzzPlay
                return result;
             }
 
-     
-
         }
     }
 }
