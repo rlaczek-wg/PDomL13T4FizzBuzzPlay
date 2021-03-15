@@ -5,9 +5,9 @@ namespace PDomL13T4FizzBuzzPlay
     class Program
     {
         private static string result;
+        private static string toStop;
         static void Main(string[] args)
         {
-            string toStop;
             while (true)
             {
                 var fizzBuzz = new FizzBuzz();
