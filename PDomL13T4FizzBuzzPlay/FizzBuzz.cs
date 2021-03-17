@@ -29,10 +29,11 @@ namespace PDomL13T4FizzBuzzPlay
                     {
                         result = "FissBuzz";
                     }
-                    else if (myNumber % 3 != 0 && myNumber % 5 != 0)
+                    else 
                     {
-                        result = "Liczba "+ myNumber.ToString() +" jest niepodzielna ani przez 3 ani 5 ";
-                    } 
+                        result = "Liczba " + myNumber.ToString() + " jest niepodzielna ani przez 3 ani 5 ";
+                    }
+
                 }
                 catch
                 {
